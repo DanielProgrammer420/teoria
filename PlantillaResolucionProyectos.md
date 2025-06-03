@@ -420,4 +420,538 @@ Este enfoque te servirá para proyectos mucho más complejos. La clave es la **d
 3.  **Después de la Implementación Inicial:** Pasa por las Fases 4, 5 y 6.
 4.  **Al Finalizar:** Dedica tiempo a la reflexión post-proyecto.
 
+
 Esta plantilla es una guía. Siéntete libre de adaptarla, añadir o quitar secciones según la naturaleza y complejidad de tus proyectos. ¡El objetivo es que te ayude a ser más organizado y efectivo!
+
+---
+
+¡Excelente iniciativa! Convertirte en desarrollador profesional Java es un viaje emocionante y lleno de aprendizaje. Esta hoja de ruta de 30 proyectos está diseñada para llevarte desde los conceptos más básicos hasta un nivel intermedio/avanzado, preparándote sólidamente para el mundo laboral y las entrevistas técnicas.
+
+**Un Consejo Inicial Importante:**
+Desde el primer proyecto, acostúmbrate a usar un sistema de control de versiones como **Git** y a subir tus proyectos a **GitHub** (o similar). Esto es fundamental en el desarrollo profesional y te permitirá mostrar tu progreso.
+
+---
+
+**Fase 1: Fundamentos de Java y Programación Orientada a Objetos (Proyectos 1-10)**
+*Objetivo: Dominar la sintaxis de Java, el pensamiento lógico y los principios de la POO.*
+
+1.  **Nombre del proyecto:** Calculadora de Consola Básica
+    *   **Objetivo de aprendizaje:** Variables, tipos de datos, operadores aritméticos, entrada/salida (`Scanner`), métodos básicos, estructuras de control (`if-else`, `switch`).
+    *   **Descripción corta:** Programa que pide dos números y una operación (suma, resta, multiplicación, división) al usuario y muestra el resultado.
+    *   **Conceptos técnicos clave:** `Scanner`, `System.out.println()`, `int`, `double`, `char`, `String`, métodos estáticos, `main()`.
+    *   **Valor profesional:** Entender el flujo básico de un programa y la interacción con el usuario.
+    *   **Posibles mejoras:** Añadir más operaciones (módulo, potencia), manejar división por cero.
+
+2.  **Nombre del proyecto:** Adivina el Número
+    *   **Objetivo de aprendizaje:** Bucles (`while`, `for`), generación de números aleatorios (`Random`), condicionales.
+    *   **Descripción corta:** El programa genera un número aleatorio y el usuario intenta adivinarlo, recibiendo pistas ("más alto", "más bajo").
+    *   **Conceptos técnicos clave:** `Random`, bucles, comparación, lógica booleana.
+    *   **Valor profesional:** Práctica de lógica de control y algoritmos simples.
+    *   **Posibles mejoras:** Limitar el número de intentos, guardar puntuaciones.
+
+3.  **Nombre del proyecto:** Conversor de Unidades
+    *   **Objetivo de aprendizaje:** Más práctica con métodos, `switch`, y manejo de diferentes tipos de datos.
+    *   **Descripción corta:** Programa que convierte entre diferentes unidades (ej: Celsius a Fahrenheit, Kilómetros a Millas).
+    *   **Conceptos técnicos clave:** Métodos con parámetros y retorno, organización del código.
+    *   **Valor profesional:** Diseño modular simple.
+    *   **Posibles mejoras:** Añadir más conversiones, permitir al usuario elegir las unidades de entrada y salida.
+
+4.  **Nombre del proyecto:** Gestor de Tareas Simple (Consola)
+    *   **Objetivo de aprendizaje:** Introducción a objetos y clases, `ArrayList` para colecciones.
+    *   **Descripción corta:** Aplicación para agregar, ver, marcar como completada y eliminar tareas. Cada tarea es un objeto.
+    *   **Conceptos técnicos clave:** Clases (`Tarea` con atributos como `descripcion`, `completada`), objetos, `ArrayList<Tarea>`, métodos de instancia.
+    *   **Valor profesional:** Primer contacto con modelado de datos simple usando POO.
+    *   **Posibles mejoras:** Editar tareas existentes, priorizar tareas.
+
+5.  **Nombre del proyecto:** Sistema de Biblioteca Básico (Consola)
+    *   **Objetivo de aprendizaje:** Relaciones entre clases, uso de `HashMap` para búsquedas eficientes.
+    *   **Descripción corta:** Permite agregar libros, buscar libros por título o ISBN, prestar y devolver libros.
+    *   **Conceptos técnicos clave:** Clases (`Libro`, `Usuario`), `ArrayList`, `HashMap` (para ISBN -> Libro), encapsulamiento.
+    *   **Valor profesional:** Modelado de entidades y sus interacciones.
+    *   **Posibles mejoras:** Manejo de fechas de préstamo, multas por retraso.
+
+6.  **Nombre del proyecto:** Juego del Ahorcado
+    *   **Objetivo de aprendizaje:** Manipulación de `String` y `char[]`, lógica de juego más compleja.
+    *   **Descripción corta:** Clásico juego del ahorcado donde el usuario adivina letras de una palabra oculta.
+    *   **Conceptos técnicos clave:** `String.charAt()`, `String.contains()`, `char[]`, bucles, estado del juego.
+    *   **Valor profesional:** Desarrollo de algoritmos y manejo de estado.
+    *   **Posibles mejoras:** Cargar palabras desde un archivo, interfaz gráfica básica.
+
+7.  **Nombre del proyecto:** Analizador de Texto Simple
+    *   **Objetivo de aprendizaje:** Lectura de archivos (`FileReader`, `BufferedReader`), procesamiento de texto.
+    *   **Descripción corta:** Lee un archivo de texto y cuenta el número de palabras, líneas y caracteres.
+    *   **Conceptos técnicos clave:** `java.io.File`, `FileReader`, `BufferedReader`, `String.split()`, manejo de `IOException`.
+    *   **Valor profesional:** Introducción al manejo de archivos, una tarea común.
+    *   **Posibles mejoras:** Encontrar las palabras más frecuentes, calcular la longitud promedio de las palabras.
+
+8.  **Nombre del proyecto:** POO: Figuras Geométricas
+    *   **Objetivo de aprendizaje:** Herencia y Polimorfismo.
+    *   **Descripción corta:** Crea una clase base abstracta `Figura` con métodos abstractos como `calcularArea()` y `calcularPerimetro()`. Clases derivadas (`Circulo`, `Rectangulo`, `Triangulo`) implementan estos métodos.
+    *   **Conceptos técnicos clave:** Clases abstractas, métodos abstractos, herencia (`extends`), polimorfismo, `@Override`.
+    *   **Valor profesional:** Comprensión profunda de pilares de la POO.
+    *   **Posibles mejoras:** Añadir más figuras, crear una lista de figuras y calcular el área total.
+
+9.  **Nombre del proyecto:** POO: Reproductor de Música Básico con Interfaces
+    *   **Objetivo de aprendizaje:** Interfaces y su aplicación.
+    *   **Descripción corta:** Define una interfaz `Reproducible` con métodos como `play()`, `stop()`, `pause()`. Clases como `CancionMP3`, `Podcast` implementan esta interfaz.
+    *   **Conceptos técnicos clave:** `interface`, implementación de interfaces (`implements`), desacoplamiento.
+    *   **Valor profesional:** Diseño flexible y extensible.
+    *   **Posibles mejoras:** Crear una clase `Playlist` que maneje una colección de `Reproducible`.
+
+10. **Nombre del proyecto:** Validador de Formularios con Manejo de Excepciones
+    *   **Objetivo de aprendizaje:** Creación y manejo de excepciones personalizadas.
+    *   **Descripción corta:** Simula la validación de datos de un formulario (ej: email, contraseña, edad). Lanza excepciones personalizadas si los datos no son válidos.
+    *   **Conceptos técnicos clave:** `try-catch-finally`, `throw`, crear clases de excepción personalizadas (`extends Exception`).
+    *   **Valor profesional:** Escritura de código robusto y manejo de errores.
+    *   **Posibles mejoras:** Validar formatos más complejos usando expresiones regulares.
+
+---
+
+**Fase 2: Estructuras de Datos, Archivos, Bases de Datos y GUI (Proyectos 11-20)**
+*Objetivo: Profundizar en estructuras de datos, persistencia de datos y crear interfaces de usuario simples.*
+
+11. **Nombre del proyecto:** Gestor de Contactos con Persistencia en CSV
+    *   **Objetivo de aprendizaje:** Escritura y lectura de archivos CSV, serialización/deserialización simple.
+    *   **Descripción corta:** Extiende el gestor de tareas/contactos para guardar y cargar los datos desde/hacia un archivo CSV.
+    *   **Conceptos técnicos clave:** `FileWriter`, `PrintWriter`, `BufferedReader`, `String.join()`, `String.split(",")`.
+    *   **Valor profesional:** Persistencia de datos básica, común en muchas aplicaciones.
+    *   **Posibles mejoras:** Manejar comillas y comas dentro de los campos del CSV.
+
+12. **Nombre del proyecto:** Implementación de Lista Enlazada Propia
+    *   **Objetivo de aprendizaje:** Entender cómo funciona una estructura de datos fundamental desde cero.
+    *   **Descripción corta:** Crea tu propia clase `LinkedList` genérica con operaciones como `add`, `remove`, `get`, `size`.
+    *   **Conceptos técnicos clave:** Nodos, punteros (referencias), genéricos (`<T>`), algoritmos de inserción/eliminación.
+    *   **Valor profesional:** Conocimiento profundo de estructuras de datos, útil para entrevistas.
+    *   **Posibles mejoras:** Implementar lista doblemente enlazada, métodos adicionales.
+
+13. **Nombre del proyecto:** Implementación de Pila (Stack) y Cola (Queue)
+    *   **Objetivo de aprendizaje:** Implementar otras estructuras de datos LIFO y FIFO.
+    *   **Descripción corta:** Crea tus propias clases `Stack` y `Queue` (puedes usar un `ArrayList` o tu `LinkedList` internamente).
+    *   **Conceptos técnicos clave:** LIFO (Last-In, First-Out), FIFO (First-In, First-Out), `push`, `pop`, `peek`, `enqueue`, `dequeue`.
+    *   **Valor profesional:** Comprensión de patrones de acceso a datos.
+    *   **Posibles mejoras:** Implementarlas usando arreglos con tamaño dinámico.
+
+14. **Nombre del proyecto:** CRUD Básico con JDBC y Base de Datos (Consola)
+    *   **Objetivo de aprendizaje:** Conexión a una base de datos relacional (MySQL, PostgreSQL, H2) usando JDBC.
+    *   **Descripción corta:** Aplicación de consola que realiza operaciones CRUD (Crear, Leer, Actualizar, Borrar) sobre una tabla simple (ej: `Productos`).
+    *   **Conceptos técnicos clave:** JDBC API (`Connection`, `Statement`, `PreparedStatement`, `ResultSet`), SQL básico.
+    *   **Valor profesional:** Habilidad fundamental para cualquier desarrollador backend.
+    *   **Posibles mejoras:** Manejo de transacciones, uso de un pool de conexiones.
+
+15. **Nombre del proyecto:** Gestor de Inventario (Consola con BD)
+    *   **Objetivo de aprendizaje:** Aplicar conocimientos de JDBC a un problema más completo.
+    *   **Descripción corta:** Similar al gestor de biblioteca, pero usando una base de datos para persistir productos, stock, precios.
+    *   **Conceptos técnicos clave:** Diseño de esquema de BD, consultas SQL más complejas (JOINs si es necesario).
+    *   **Valor profesional:** Experiencia práctica con bases de datos relacionales.
+    *   **Posibles mejoras:** Generar reportes (productos con bajo stock), historial de movimientos.
+
+16. **Nombre del proyecto:** Calculadora con Interfaz Gráfica (Swing/JavaFX)
+    *   **Objetivo de aprendizaje:** Introducción al desarrollo de GUI en Java.
+    *   **Descripción corta:** Reimplementa la calculadora básica, pero con una interfaz gráfica usando Swing o JavaFX.
+    *   **Conceptos técnicos clave:** (Swing) `JFrame`, `JPanel`, `JButton`, `JTextField`, `LayoutManagers`, `ActionListener`. (JavaFX) `Stage`, `Scene`, `Controls`, `EventHandlers`.
+    *   **Valor profesional:** Entender los conceptos básicos de desarrollo de UI.
+    *   **Posibles mejoras:** Añadir funciones científicas, historial de operaciones.
+
+17. **Nombre del proyecto:** Editor de Texto Simple (GUI)
+    *   **Objetivo de aprendizaje:** Manejo de componentes de UI más avanzados, interacción con el sistema de archivos desde GUI.
+    *   **Descripción corta:** Un editor de texto básico con funciones de Abrir, Guardar, Guardar Como, Cortar, Copiar, Pegar.
+    *   **Conceptos técnicos clave:** (Swing) `JTextArea`, `JMenuBar`, `JMenu`, `JMenuItem`, `JFileChooser`. (JavaFX) `TextArea`, `MenuBar`, `Menu`, `MenuItem`, `FileChooser`.
+    *   **Valor profesional:** Creación de aplicaciones de escritorio funcionales.
+    *   **Posibles mejoras:** Resaltado de sintaxis básico, búsqueda y reemplazo.
+
+18. **Nombre del proyecto:** Cliente de Chat Simple (Sockets - Consola)
+    *   **Objetivo de aprendizaje:** Programación de Red con Sockets, Hilos básicos para concurrencia.
+    *   **Descripción corta:** Un cliente y un servidor de chat de consola que permiten a múltiples usuarios comunicarse.
+    *   **Conceptos técnicos clave:** `java.net.Socket`, `java.net.ServerSocket`, `InputStream`, `OutputStream`, `Thread`.
+    *   **Valor profesional:** Fundamentos de comunicación en red.
+    *   **Posibles mejoras:** Chat con GUI, mensajes privados, lista de usuarios conectados.
+
+19. **Nombre del proyecto:** Introducción a Pruebas Unitarias (JUnit)
+    *   **Objetivo de aprendizaje:** Escribir y ejecutar pruebas unitarias.
+    *   **Descripción corta:** Elige uno o dos de tus proyectos anteriores (ej: Calculadora, Gestor de Tareas) y escribe pruebas unitarias para sus clases y métodos usando JUnit.
+    *   **Conceptos técnicos clave:** JUnit (`@Test`, `assertEquals`, `assertTrue`, etc.), TDD (Test-Driven Development) conceptualmente.
+    *   **Valor profesional:** Habilidad esencial para asegurar la calidad del software.
+    *   **Posibles mejoras:** Integrar con Maven/Gradle, explorar Mockito para mocking.
+
+20. **Nombre del proyecto:** Aplicación de Lista de Tareas con GUI y Persistencia en BD
+    *   **Objetivo de aprendizaje:** Integrar GUI, JDBC, y POO en una aplicación completa.
+    *   **Descripción corta:** Versión con interfaz gráfica (Swing/JavaFX) del gestor de tareas, donde las tareas se guardan en una base de datos.
+    *   **Conceptos técnicos clave:** Combinación de Swing/JavaFX, JDBC, SQL, POO.
+    *   **Valor profesional:** Demuestra capacidad para construir aplicaciones de escritorio completas.
+    *   **Posibles mejoras:** Notificaciones, ordenamiento/filtrado avanzado de tareas.
+
+---
+
+**Fase 3: Spring Boot, APIs, Pruebas Avanzadas y Profesionalización (Proyectos 21-30)**
+*Objetivo: Desarrollar aplicaciones backend modernas, APIs RESTful, y adoptar prácticas profesionales avanzadas.*
+
+21. **Nombre del proyecto:** API REST Simple con Spring Boot (CRUD de Entidad)
+    *   **Objetivo de aprendizaje:** Introducción a Spring Boot, creación de APIs RESTful.
+    *   **Descripción corta:** Crea una API REST para una entidad simple (ej: `Producto`, `Usuario`) con endpoints para CRUD usando Spring Boot, Spring Data JPA y una base de datos (H2 en memoria para empezar).
+    *   **Conceptos técnicos clave:** Spring Boot, `@RestController`, `@GetMapping`, `@PostMapping`, `@PutMapping`, `@DeleteMapping`, `@RequestBody`, `@PathVariable`, Spring Data JPA (`JpaRepository`), Inyección de Dependencias.
+    *   **Valor profesional:** Habilidad altamente demandada en el mercado.
+    *   **Posibles mejoras:** Añadir validaciones (`@Valid`), manejo de excepciones global (`@ControllerAdvice`).
+
+22. **Nombre del proyecto:** Consumidor de API Externa con Spring Boot
+    *   **Objetivo de aprendizaje:** Interactuar con APIs de terceros.
+    *   **Descripción corta:** Aplicación Spring Boot que consume una API pública (ej: API del clima, API de chistes, API de películas) y muestra los datos.
+    *   **Conceptos técnicos clave:** `RestTemplate` o `WebClient` (preferido para reactivo), deserialización de JSON (Jackson).
+    *   **Valor profesional:** Integración con otros servicios, común en arquitecturas modernas.
+    *   **Posibles mejoras:** Almacenar en caché las respuestas, manejar errores de la API externa.
+
+23. **Nombre del proyecto:** Blog Básico con Spring Boot y Thymeleaf
+    *   **Objetivo de aprendizaje:** Desarrollo web full-stack con Spring MVC y plantillas de servidor.
+    *   **Descripción corta:** Una aplicación de blog simple donde los usuarios pueden ver posts. Administradores pueden crear/editar/eliminar posts. Usa Spring Boot, Spring Data JPA, y Thymeleaf para las vistas.
+    *   **Conceptos técnicos clave:** Spring MVC (`@Controller`), Thymeleaf, formularios HTML, persistencia de datos.
+    *   **Valor profesional:** Entender el patrón MVC y renderizado del lado del servidor.
+    *   **Posibles mejoras:** Añadir comentarios, autenticación de usuarios.
+
+24. **Nombre del proyecto:** API REST con Spring Boot y Seguridad Básica (Spring Security)
+    *   **Objetivo de aprendizaje:** Asegurar endpoints de una API REST.
+    *   **Descripción corta:** Asegura la API REST del proyecto 21 usando Spring Security con autenticación básica (usuario/contraseña en memoria o BD) y autorización basada en roles.
+    *   **Conceptos técnicos clave:** Spring Security, `SecurityFilterChain`, autenticación, autorización, JWT (como mejora).
+    *   **Valor profesional:** Seguridad es crucial en cualquier aplicación.
+    *   **Posibles mejoras:** Implementar autenticación con JWT, OAuth2.
+
+25. **Nombre del proyecto:** Pruebas de Integración para API REST (Spring Boot)
+    *   **Objetivo de aprendizaje:** Escribir pruebas de integración para APIs Spring Boot.
+    *   **Descripción corta:** Escribe pruebas de integración para los endpoints de tu API REST (proyecto 21 o 24) usando `@SpringBootTest` y `MockMvc` o `TestRestTemplate`.
+    *   **Conceptos técnicos clave:** `@SpringBootTest`, `MockMvc`, `TestRestTemplate`, pruebas de controladores.
+    *   **Valor profesional:** Asegurar que los diferentes componentes de la aplicación funcionan juntos.
+    *   **Posibles mejoras:** Usar Testcontainers para probar con una base de datos real.
+
+26. **Nombre del proyecto:** Microservicio Simple con Spring Boot
+    *   **Objetivo de aprendizaje:** Introducción a la arquitectura de microservicios.
+    *   **Descripción corta:** Crea dos microservicios pequeños que se comuniquen entre sí (ej: un servicio de "Usuarios" y un servicio de "Pedidos" que consulta al de usuarios).
+    *   **Conceptos técnicos clave:** Comunicación inter-servicios (REST, Feign Client), descubrimiento de servicios (Eureka/Consul básico), tolerancia a fallos (Resilience4j básico).
+    *   **Valor profesional:** Entender los principios de los microservicios.
+    *   **Posibles mejoras:** Implementar un API Gateway.
+
+27. **Nombre del proyecto:** Aplicación Spring Boot con Dockerización Básica
+    *   **Objetivo de aprendizaje:** Empaquetar una aplicación Spring Boot en un contenedor Docker.
+    *   **Descripción corta:** Crea un `Dockerfile` para uno de tus proyectos Spring Boot y aprende a construir y ejecutar la imagen Docker.
+    *   **Conceptos técnicos clave:** Docker, `Dockerfile`, imágenes, contenedores, `docker build`, `docker run`.
+    *   **Valor profesional:** Habilidad esencial para despliegue y DevOps.
+    *   **Posibles mejoras:** Usar Docker Compose para orquestar múltiples contenedores (aplicación + base de datos).
+
+28. **Nombre del proyecto:** Refactorización con Lambdas y Streams
+    *   **Objetivo de aprendizaje:** Modernizar código Java usando características de Java 8+.
+    *   **Descripción corta:** Revisa algunos de tus proyectos anteriores (especialmente los que manejan colecciones) y refactorízalos para usar expresiones Lambda y la API de Streams.
+    *   **Conceptos técnicos clave:** Expresiones Lambda, interfaces funcionales, Stream API (`filter`, `map`, `collect`, `forEach`, etc.).
+    *   **Valor profesional:** Escribir código Java más conciso, legible y moderno.
+    *   **Posibles mejoras:** Aplicar `Optional` para un mejor manejo de nulos.
+
+29. **Nombre del proyecto:** Herramienta de Línea de Comandos (CLI) Avanzada
+    *   **Objetivo de aprendizaje:** Crear herramientas de consola robustas y empaquetables.
+    *   **Descripción corta:** Desarrolla una utilidad CLI (ej: un procesador de archivos CSV, un cliente para una API) usando una librería como Picocli para parseo de argumentos y ayuda. Empaquétala como un JAR ejecutable.
+    *   **Conceptos técnicos clave:** Librerías CLI (Picocli), empaquetado JAR, scripts de ejecución.
+    *   **Valor profesional:** Desarrollo de herramientas internas o utilidades.
+    *   **Posibles mejoras:** Publicarla en un repositorio como Maven Central (si es una librería).
+
+30. **Nombre del proyecto:** Contribución Pequeña a Proyecto Open Source / Módulo Reutilizable
+    *   **Objetivo de aprendizaje:** Colaborar en código existente, entender flujos de trabajo de desarrollo comunitario o crear algo para ser reutilizado.
+    *   **Descripción corta:** Encuentra un proyecto Java open source en GitHub que te interese y haz una contribución pequeña (corregir un bug, mejorar documentación, añadir una prueba). Alternativamente, crea una pequeña librería Java con una funcionalidad específica que pueda ser útil en otros proyectos.
+    *   **Conceptos técnicos clave:** Git (fork, pull request), lectura de código ajeno, convenciones de codificación del proyecto, pruebas.
+    *   **Valor profesional:** Experiencia de colaboración real, visibilidad en la comunidad.
+    *   **Posibles mejoras:** Convertirse en un contribuidor regular.
+
+---
+
+**Proyecto Final Integrador (Opcional pero Muy Recomendado)**
+
+*   **Nombre del proyecto:** Sistema de Gestión de Cursos Online (Simplificado)
+*   **Objetivo de aprendizaje:** Integrar la mayoría de los conocimientos adquiridos en un proyecto de mayor envergadura.
+*   **Descripción corta:** Una plataforma donde los instructores pueden crear cursos y los estudiantes pueden inscribirse.
+    *   **Backend:** API REST con Spring Boot (Cursos, Lecciones, Usuarios, Inscripciones).
+    *   **Seguridad:** Spring Security para autenticación (JWT) y autorización (roles: ESTUDIANTE, INSTRUCTOR, ADMIN).
+    *   **Frontend:** Thymeleaf para una interfaz web simple o, si te animas, un frontend separado (React/Angular/Vue) que consuma la API (esto sería un gran plus).
+    *   **Base de Datos:** PostgreSQL o MySQL.
+    *   **Pruebas:** Unitarias y de Integración.
+    *   **Despliegue (Opcional):** Dockerizar la aplicación y la base de datos, desplegar en un servicio en la nube (Heroku, AWS Free Tier).
+*   **Conceptos técnicos clave:** Todos los de Spring Boot, JPA, Security, REST, posiblemente frontend, Docker, CI/CD básico.
+*   **Valor profesional:** Un proyecto "estrella" para tu portafolio que demuestra habilidades full-stack (o backend robusto) y la capacidad de llevar una idea compleja a la realidad.
+*   **Posibles mejoras:** Sistema de pago simulado, foros de discusión por curso, carga de materiales, quizzes.
+
+---
+
+**Recursos Clave:**
+
+*   **Documentación Oficial de Java y Spring:** Siempre tu primera fuente.
+*   **Baeldung:** Tutoriales excelentes sobre Java y Spring.
+*   **Stack Overflow:** Para resolver dudas puntuales.
+*   **GitHub:** Para ver código de otros, alojar tus proyectos y colaborar.
+*   **Libros:** "Effective Java" (Joshua Bloch), "Spring in Action" (Craig Walls).
+*   **Cursos Online:** Udemy, Coursera, Pluralsight (muchos ofrecen contenido de calidad sobre Java y Spring).
+
+**Sugerencias para Practicar Entrevistas Técnicas:**
+
+1.  **Explica Tus Proyectos (Método STAR):**
+    *   **S**ituación: Describe el contexto del proyecto.
+    *   **T**area: ¿Cuál era tu rol y objetivo?
+    *   **A**cción: ¿Qué hiciste específicamente? ¿Qué tecnologías usaste y por qué? ¿Qué desafíos enfrentaste y cómo los superaste?
+    *   **R**esultado: ¿Cuál fue el resultado? ¿Qué aprendiste?
+2.  **Problemas de Código:**
+    *   Practica en plataformas como LeetCode, HackerRank, Codewars. Enfócate en estructuras de datos y algoritmos comunes.
+    *   Piensa en voz alta durante la resolución, explica tu proceso.
+3.  **Conceptos de Java y POO:**
+    *   Prepárate para preguntas sobre los 4 pilares de la POO, modificadores de acceso, clases abstractas vs interfaces, manejo de excepciones, colecciones, genéricos, lambdas, streams.
+4.  **Conceptos de Spring Boot:**
+    *   Inyección de dependencias, beans, auto-configuración, Spring Data JPA, Spring Security, REST.
+5.  **Bases de Datos:**
+    *   SQL (JOINs, GROUP BY, subconsultas), normalización, transacciones ACID.
+6.  **Preguntas de Comportamiento (Behavioral):**
+    *   "Háblame de un momento en que fallaste", "Cómo manejas conflictos en equipo", "Por qué quieres trabajar aquí".
+7.  **Simulacros de Entrevista:**
+    *   Practica con amigos, mentores o plataformas que ofrecen simulacros.
+8.  **Haz Preguntas:**
+    *   Siempre ten preguntas preparadas para el entrevistador. Demuestra interés y compromiso.
+
+---
+
+¡Este es un camino ambicioso pero increíblemente gratificante! Recuerda que la clave es la **consistencia** y la **práctica deliberada**. No te desanimes por los errores; son oportunidades de aprendizaje. ¡Mucho éxito en tu viaje para convertirte en un desarrollador Java profesional! Estoy aquí para guiarte si tienes más preguntas.
+
+---
+¡Claro que sí! Entender qué conocimientos necesitas para cada proyecto te ayudará a enfocar tu aprendizaje y a sentirte más preparado. Aquí te desgloso los conocimientos clave por cada fase y proyecto, basándome en la hoja de ruta que te proporcioné.
+
+**Recordatorio Importante:**
+*   **Git y GitHub:** Úsalos desde el proyecto 1. Aprende `git init`, `git add`, `git commit`, `git push`, `git pull`, `git branch`.
+*   **IDE (Entorno de Desarrollo Integrado):** IntelliJ IDEA (Community Edition es gratuita y excelente), Eclipse o VS Code con extensiones de Java. Aprende a crear proyectos, escribir, compilar y ejecutar código, y a usar el depurador.
+
+---
+
+**Fase 1: Fundamentos de Java y Programación Orientada a Objetos (Proyectos 1-10)**
+*Conocimientos generales para esta fase: Sintaxis básica de Java, tipos de datos primitivos, operadores, estructuras de control, métodos, conceptos básicos de clases y objetos.*
+
+1.  **Calculadora de Consola Básica:**
+    *   Variables y tipos de datos: `int`, `double`, `char`.
+    *   Operadores aritméticos: `+`, `-`, `*`, `/`.
+    *   Entrada/Salida: `java.util.Scanner` (métodos `nextDouble()`, `next().charAt(0)`), `System.out.println()`.
+    *   Estructuras de control: `if-else` o `switch` para seleccionar la operación.
+    *   Método `main()`.
+
+2.  **Adivina el Número:**
+    *   Bucles: `while` o `do-while` para permitir múltiples intentos.
+    *   Generación de números aleatorios: `java.util.Random` (método `nextInt()`).
+    *   Condicionales: `if-else if-else` para dar pistas ("más alto", "más bajo").
+    *   Comparación: `==`, `<`, `>`.
+
+3.  **Conversor de Unidades:**
+    *   Métodos: Definir métodos para cada tipo de conversión (ej: `celsiusToFahrenheit(double celsius)`).
+    *   Parámetros y valores de retorno en métodos.
+    *   Uso de `switch` para seleccionar la conversión deseada por el usuario.
+    *   Fórmulas de conversión.
+
+4.  **Gestor de Tareas Simple (Consola):**
+    *   Clases y Objetos: Definir una clase `Tarea` con atributos (ej: `String descripcion`, `boolean completada`). Crear instancias (objetos) de `Tarea`.
+    *   `java.util.ArrayList<Tarea>`: Para almacenar una colección de objetos `Tarea`.
+    *   Métodos de instancia en la clase `Tarea` (ej: `marcarComoCompletada()`, `getDescripcion()`).
+    *   Encapsulamiento básico (atributos privados, métodos públicos `getters/setters`).
+
+5.  **Sistema de Biblioteca Básico (Consola):**
+    *   Múltiples Clases: `Libro` (título, autor, ISBN, disponible), `Usuario` (nombre, id).
+    *   Relaciones entre clases (un `Libro` puede estar prestado a un `Usuario`).
+    *   `java.util.ArrayList` para listas de libros y usuarios.
+    *   `java.util.HashMap<String, Libro>`: Para buscar libros eficientemente por ISBN (clave String, valor objeto Libro).
+    *   Más práctica con encapsulamiento y métodos.
+
+6.  **Juego del Ahorcado:**
+    *   Manipulación de `String`: `length()`, `charAt()`, `contains()`, `toCharArray()`.
+    *   Arrays de `char`: `char[]` para representar la palabra oculta y las letras adivinadas.
+    *   Lógica de juego: Contar intentos, verificar si la letra está en la palabra, actualizar la palabra mostrada, condiciones de victoria/derrota.
+    *   Bucles y condicionales.
+
+7.  **Analizador de Texto Simple:**
+    *   Manejo de Archivos (Lectura): `java.io.File`, `java.io.FileReader`, `java.io.BufferedReader`.
+    *   Manejo de Excepciones: `try-catch` para `IOException`.
+    *   Lectura línea por línea: `BufferedReader.readLine()`.
+    *   Procesamiento de `String`: `split()` para contar palabras, `length()` para caracteres.
+
+8.  **POO: Figuras Geométricas:**
+    *   Clases Abstractas: `abstract class Figura`.
+    *   Métodos Abstractos: `public abstract double calcularArea();`.
+    *   Herencia: `class Circulo extends Figura`.
+    *   Polimorfismo: Tratar objetos de `Circulo`, `Rectangulo` como `Figura`.
+    *   Anotación `@Override`.
+    *   Constructores en clases base y derivadas.
+
+9.  **POO: Reproductor de Música Básico con Interfaces:**
+    *   Interfaces: `interface Reproducible` con métodos como `play()`, `stop()`.
+    *   Implementación de Interfaces: `class CancionMP3 implements Reproducible`.
+    *   Polimorfismo con interfaces.
+    *   Diferencia conceptual entre herencia (es un) e interfaces (puede hacer).
+
+10. **Validador de Formularios con Manejo de Excepciones:**
+    *   Manejo de Excepciones: `try-catch-finally`.
+    *   Lanzamiento de Excepciones: `throw new MiExcepcion("Mensaje");`.
+    *   Creación de Excepciones Personalizadas: `class ValidacionException extends Exception { ... }`.
+    *   Uso de `String.matches()` con expresiones regulares simples para validaciones (opcional, pero útil).
+
+---
+
+**Fase 2: Estructuras de Datos, Archivos, Bases de Datos y GUI (Proyectos 11-20)**
+*Conocimientos generales para esta fase: Profundización en POO, manejo de archivos más avanzado, fundamentos de bases de datos relacionales y SQL, introducción a GUI.*
+
+11. **Gestor de Contactos con Persistencia en CSV:**
+    *   Manejo de Archivos (Escritura): `java.io.FileWriter`, `java.io.PrintWriter`.
+    *   Formato CSV: Entender cómo separar valores con comas y líneas.
+    *   `String.join(",", ...)` y `String.split(",")`.
+    *   Convertir objetos a `String` para guardar y `String` a objetos para cargar.
+
+12. **Implementación de Lista Enlazada Propia:**
+    *   Concepto de Nodos: Una clase `Nodo` interna con un dato y una referencia al siguiente nodo.
+    *   Genéricos (`<T>`): Para que la lista pueda almacenar cualquier tipo de dato.
+    *   Punteros (Referencias en Java): Entender cómo los nodos se "apuntan" entre sí.
+    *   Algoritmos de inserción (al inicio, al final, en posición), eliminación y búsqueda en listas enlazadas.
+
+13. **Implementación de Pila (Stack) y Cola (Queue):**
+    *   Principios LIFO (Last-In, First-Out) para Stack.
+    *   Principios FIFO (First-In, First-Out) para Queue.
+    *   Operaciones típicas: `push`, `pop`, `peek` (Stack); `enqueue`, `dequeue`, `peek` (Queue).
+    *   Implementación usando `ArrayList` internamente o la `LinkedList` del proyecto anterior.
+
+14. **CRUD Básico con JDBC y Base de Datos (Consola):**
+    *   Conceptos de Bases de Datos Relacionales: Tablas, columnas, claves primarias.
+    *   SQL Básico: `SELECT`, `INSERT`, `UPDATE`, `DELETE`, `CREATE TABLE`.
+    *   JDBC API:
+        *   Cargar el driver de la BD (ej: MySQL, PostgreSQL, H2).
+        *   `java.sql.Connection`: Establecer conexión.
+        *   `java.sql.Statement`: Ejecutar SQL simple.
+        *   `java.sql.PreparedStatement`: Ejecutar SQL parametrizado (más seguro y eficiente).
+        *   `java.sql.ResultSet`: Procesar los resultados de una consulta `SELECT`.
+    *   Manejo de `SQLException`.
+
+15. **Gestor de Inventario (Consola con BD):**
+    *   Diseño de Esquema de BD: Múltiples tablas relacionadas (ej: `Productos`, `Categorias`).
+    *   Consultas SQL más complejas: `JOIN` para combinar datos de tablas.
+    *   Aplicar todos los conocimientos de JDBC del proyecto anterior a un caso más completo.
+
+16. **Calculadora con Interfaz Gráfica (Swing/JavaFX):**
+    *   **Swing:**
+        *   Componentes: `JFrame`, `JPanel`, `JButton`, `JTextField`, `JLabel`.
+        *   Layout Managers: `FlowLayout`, `BorderLayout`, `GridLayout` para organizar componentes.
+        *   Manejo de Eventos: `ActionListener` e interfaz `actionPerformed(ActionEvent e)`.
+    *   **JavaFX (alternativa):**
+        *   Estructura: `Application`, `Stage`, `Scene`.
+        *   Controles: `Button`, `TextField`, `Label`.
+        *   Layout Panes: `VBox`, `HBox`, `GridPane`.
+        *   Manejo de Eventos: `EventHandler` y `setOnAction()`.
+    *   Entender el ciclo de vida básico de una aplicación GUI.
+
+17. **Editor de Texto Simple (GUI):**
+    *   **Swing:** `JTextArea`, `JMenuBar`, `JMenu`, `JMenuItem`, `JFileChooser` (para diálogos de abrir/guardar).
+    *   **JavaFX:** `TextArea`, `MenuBar`, `Menu`, `MenuItem`, `FileChooser`.
+    *   Lógica para leer el contenido de un archivo en el `TextArea` y guardar el contenido del `TextArea` en un archivo.
+    *   Acciones de cortar, copiar, pegar (usando métodos de los componentes de texto).
+
+18. **Cliente de Chat Simple (Sockets - Consola):**
+    *   Programación de Red (Sockets):
+        *   `java.net.Socket` (para el cliente).
+        *   `java.net.ServerSocket` (para el servidor).
+        *   `java.io.InputStream` / `java.io.OutputStream` (o `BufferedReader`/`PrintWriter` sobre ellos) para enviar/recibir datos.
+    *   Hilos (`java.lang.Thread`): Para que el servidor pueda manejar múltiples clientes y para que el cliente pueda leer y escribir simultáneamente sin bloquearse.
+    *   Manejo básico de concurrencia (no se necesita sincronización compleja para este proyecto).
+
+19. **Introducción a Pruebas Unitarias (JUnit):**
+    *   Framework JUnit: Anotaciones (`@Test`, `@BeforeEach`, `@AfterEach`, etc.).
+    *   Aserciones: `assertEquals()`, `assertTrue()`, `assertFalse()`, `assertNotNull()`, etc.
+    *   Escribir casos de prueba para métodos individuales de tus clases.
+    *   Entender el concepto de "unidad" y cómo aislarla para probarla.
+    *   (Opcional) Integración con Maven/Gradle para ejecutar pruebas.
+
+20. **Aplicación de Lista de Tareas con GUI y Persistencia en BD:**
+    *   Integración de conocimientos:
+        *   GUI (Swing/JavaFX) para la interfaz.
+        *   JDBC para interactuar con la base de datos.
+        *   POO para modelar las tareas y la lógica de negocio.
+        *   SQL para las operaciones CRUD en la base de datos.
+    *   Diseño de la interacción entre la GUI, la lógica de la aplicación y la capa de datos.
+
+---
+
+**Fase 3: Spring Boot, APIs, Pruebas Avanzadas y Profesionalización (Proyectos 21-30)**
+*Conocimientos generales para esta fase: Framework Spring Boot, desarrollo de APIs REST, conceptos de microservicios, contenedores (Docker), pruebas más avanzadas, Java moderno.*
+
+21. **API REST Simple con Spring Boot (CRUD de Entidad):**
+    *   Spring Boot: Conceptos básicos (auto-configuración, starters).
+    *   Inyección de Dependencias (`@Autowired`).
+    *   Beans de Spring (`@Component`, `@Service`, `@Repository`).
+    *   Spring MVC para REST: `@RestController`, `@GetMapping`, `@PostMapping`, `@PutMapping`, `@DeleteMapping`.
+    *   Anotaciones para manejo de peticiones: `@RequestBody`, `@PathVariable`, `@RequestParam`.
+    *   Spring Data JPA: `JpaRepository` para abstracción de la capa de datos.
+    *   Entidades JPA (`@Entity`, `@Id`, `@GeneratedValue`).
+    *   Base de datos en memoria (H2) para desarrollo rápido.
+
+22. **Consumidor de API Externa con Spring Boot:**
+    *   Clientes HTTP en Java: `RestTemplate` (tradicional) o `WebClient` (moderno, reactivo, parte de Spring WebFlux).
+    *   Serialización/Deserialización JSON: Librería Jackson (Spring Boot la incluye por defecto). Mapear JSON a objetos Java (POJOs).
+    *   Manejo de respuestas HTTP (códigos de estado, cabeceras).
+
+23. **Blog Básico con Spring Boot y Thymeleaf:**
+    *   Spring MVC (para web, no solo API): `@Controller` (en lugar de `@RestController` para devolver vistas).
+    *   Thymeleaf: Motor de plantillas. Sintaxis básica para mostrar datos, iterar, condicionales en HTML.
+    *   Formularios HTML: Envío de datos al backend (`<form>`, `th:object`, `th:field`).
+    *   Manejo de datos de formularios en el controlador (`@ModelAttribute`).
+
+24. **API REST con Spring Boot y Seguridad Básica (Spring Security):**
+    *   Spring Security: Conceptos (Autenticación, Autorización).
+    *   Configuración básica: `SecurityFilterChain` bean.
+    *   Autenticación en memoria o basada en BD (con `UserDetailsService`).
+    *   Protección de endpoints (`http.authorizeHttpRequests()`).
+    *   (Opcional, pero muy recomendado) Entender JWT (JSON Web Tokens) para autenticación stateless.
+
+25. **Pruebas de Integración para API REST (Spring Boot):**
+    *   JUnit (ya conocido).
+    *   Anotaciones de Spring Test: `@SpringBootTest`, `@AutoConfigureMockMvc`.
+    *   `MockMvc`: Para simular peticiones HTTP a tus controladores sin levantar un servidor real.
+    *   `TestRestTemplate`: Para probar contra un servidor real (levantado por `@SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)`).
+    *   Aserciones sobre respuestas HTTP (status, body, headers).
+
+26. **Microservicio Simple con Spring Boot:**
+    *   Conceptos de Microservicios: Servicios pequeños, independientes, desplegables.
+    *   Comunicación Inter-Servicios:
+        *   Usando `RestTemplate` o `WebClient` para llamar a otro servicio.
+        *   (Opcional) Feign Client para una abstracción más declarativa.
+    *   (Muy opcional para un primer contacto) Descubrimiento de servicios (ej: Eureka, Consul) y tolerancia a fallos (ej: Resilience4j). Enfócate en la comunicación primero.
+
+27. **Aplicación Spring Boot con Dockerización Básica:**
+    *   Docker: Conceptos (imágenes, contenedores).
+    *   `Dockerfile`: Escribir un archivo para definir cómo construir tu imagen (desde una imagen base de Java, copiar el JAR, exponer puerto, comando de ejecución).
+    *   Comandos Docker: `docker build`, `docker run`, `docker ps`, `docker images`.
+    *   (Opcional) Maven/Gradle plugins para construir imágenes Docker (Jib, Spring Boot Docker plugin).
+
+28. **Refactorización con Lambdas y Streams (Java 8+):**
+    *   Expresiones Lambda: Sintaxis, uso con interfaces funcionales.
+    *   Stream API:
+        *   Creación de streams desde colecciones.
+        *   Operaciones intermedias: `filter()`, `map()`, `sorted()`, `distinct()`.
+        *   Operaciones terminales: `forEach()`, `collect()`, `reduce()`, `count()`, `anyMatch()`, `allMatch()`.
+    *   `java.util.Optional`: Para un mejor manejo de valores que pueden ser nulos.
+    *   Métodos de referencia.
+
+29. **Herramienta de Línea de Comandos (CLI) Avanzada:**
+    *   Librerías para CLI: Picocli (muy recomendada), Apache Commons CLI.
+    *   Parseo de argumentos de línea de comandos, opciones, subcomandos.
+    *   Generación de ayuda (`--help`).
+    *   Empaquetado como JAR ejecutable (configurando el `Main-Class` en el `MANIFEST.MF`).
+
+30. **Contribución Pequeña a Proyecto Open Source / Módulo Reutilizable:**
+    *   Git Avanzado: `fork`, `clone`, `branch`, `pull request`.
+    *   Leer y entender código existente.
+    *   Seguir las guías de contribución del proyecto (estilo de código, pruebas).
+    *   Comunicación con mantenedores.
+    *   Si creas un módulo: buen diseño de API, Javadoc, pruebas unitarias exhaustivas.
+
+---
+
+**Proyecto Final Integrador: Sistema de Gestión de Cursos Online**
+*Este proyecto consolida muchos de los conocimientos anteriores, especialmente los de la Fase 3.*
+*   Todos los conceptos de Spring Boot (MVC, Data JPA, Security).
+*   Diseño de API RESTful.
+*   Modelado de datos complejo con JPA (relaciones OneToMany, ManyToMany).
+*   Autenticación con JWT y autorización basada en roles.
+*   Si haces frontend: HTML, CSS, JavaScript y un framework (React/Angular/Vue básico) o Thymeleaf avanzado.
+*   Pruebas unitarias y de integración completas.
+*   Docker y Docker Compose (para orquestar aplicación y base de datos).
+*   (Opcional) CI/CD básico (ej: GitHub Actions para construir y probar automáticamente).
+
+Este desglose debería darte una idea clara de qué estudiar antes o durante cada proyecto. ¡No te sientas presionado a saberlo TODO antes de empezar un proyecto! Mucho del aprendizaje ocurre *mientras* lo estás construyendo y te enfrentas a problemas específicos. ¡Sigue adelante!
